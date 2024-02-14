@@ -76,7 +76,7 @@ function changeTextWithFadeR() {
 
   index = (index + 1) % texts.length;
   
-  if(index===12){
+  if(index===13){
     window.location.href = "test.html";
   }
 }
@@ -100,7 +100,7 @@ function changeTextWithFadeL() {
   }, 500);
 
   index = (index - 1) % texts.length;
-  if(index===12){
+  if(index===13){
     window.location.href = "test.html";
   }
 }
