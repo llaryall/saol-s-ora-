@@ -76,7 +76,7 @@ function changeTextWithFadeR() {
 
   index = (index + 1) % texts.length;
   
-  if(index===13){
+  if(index===12){
     window.location.href = "test.html";
   }
 }
